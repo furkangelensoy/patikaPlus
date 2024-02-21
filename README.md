@@ -1,1 +1,1 @@
-# Back-end Web Develepor Bootcamp with Patika+
+# Patika+ Back-end Web Develepor Bootcamp
