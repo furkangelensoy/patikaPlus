@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week-02/arithmeticOperationWithRecursive/arithmeticOperationWithRecursive.iml" filepath="$PROJECT_DIR$/Week-02/arithmeticOperationWithRecursive/arithmeticOperationWithRecursive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/patika+.iml" filepath="$PROJECT_DIR$/.idea/patika+.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-02/powerOfNumberWithRecursive/powerOfNumberWithRecursive.iml" filepath="$PROJECT_DIR$/Week-02/powerOfNumberWithRecursive/powerOfNumberWithRecursive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-02/primeNumberWithRecursive/primeNumberWithRecursive.iml" filepath="$PROJECT_DIR$/Week-02/primeNumberWithRecursive/primeNumberWithRecursive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-02/salaryCalculator/salaryCalculator.iml" filepath="$PROJECT_DIR$/Week-02/salaryCalculator/salaryCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-02/transposeMatrix/transposeMatrix.iml" filepath="$PROJECT_DIR$/Week-02/transposeMatrix/transposeMatrix.iml" />
     </modules>
   </component>
 </project>
