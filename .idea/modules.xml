@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Week-02/primeNumberWithRecursive/primeNumberWithRecursive.iml" filepath="$PROJECT_DIR$/Week-02/primeNumberWithRecursive/primeNumberWithRecursive.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week-02/salaryCalculator/salaryCalculator.iml" filepath="$PROJECT_DIR$/Week-02/salaryCalculator/salaryCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week-02/transposeMatrix/transposeMatrix.iml" filepath="$PROJECT_DIR$/Week-02/transposeMatrix/transposeMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-05/tryCatch/tryCatch.iml" filepath="$PROJECT_DIR$/Week-05/tryCatch/tryCatch.iml" />
     </modules>
   </component>
 </project>
