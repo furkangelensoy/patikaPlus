@@ -1,4 +1,5 @@
-public class Book {
+
+public class Book implements Comparable<Book> {
     private String name;
     private int numberOfPages;
     private String authorName;
@@ -41,5 +42,10 @@ public class Book {
 
     public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
+    }
+
+    @Override
+    public int compareTo(Book o) {
+        return this.name.compareTo(o.getName());
     }
 }
