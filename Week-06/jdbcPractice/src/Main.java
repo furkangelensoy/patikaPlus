@@ -21,6 +21,10 @@ public class Main {
                 System.out.println("######################################################");
             }
 
+            connect.close();
+            statement.close();
+            resultSet.close();
+
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
