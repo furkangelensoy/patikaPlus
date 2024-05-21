@@ -18,13 +18,13 @@ management system.
 1. **Clone this repository**
 
 ```
-
+git clone https://github.com/furkangelensoy/patikaPlus/tree/master/Week-12/libraryManagementSystem
 ```
 
 2. **Database Setup**
 
-    - Create a PostgreSQL database.
-    - Set your database connection details in `application.properties` file.
+    1. Create a PostgreSQL database.
+    2. Set your database connection details in `application.properties` file.
 
 
 3. **Run the Application**
@@ -57,3 +57,4 @@ management system.
 
 
 ## UML Diagram
+![uml](https://github.com/furkangelensoy/patikaPlus/assets/134130366/2a726654-246d-491b-b099-44e4e325ea9b)
