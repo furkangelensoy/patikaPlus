@@ -39,7 +39,7 @@ public class BookBorrowingController {
         return ResultHelper.CREATED(response);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public ResultData<BookBorrowingResponse> update(@Valid @RequestBody BookBorrowingUpdateRequest updateRequest) {
         BookBorrowingResponse response = mapperService.forResponse()
                 .map(bookBorrowingServices.update(mapperService.forRequest().map(updateRequest, BookBorrowing.class))

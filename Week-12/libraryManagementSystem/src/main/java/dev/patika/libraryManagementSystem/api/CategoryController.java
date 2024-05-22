@@ -34,7 +34,7 @@ public class CategoryController {
         return ResultHelper.CREATED(response);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public ResultData<CategoryResponse> update(@Valid @RequestBody CategoryUpdateRequest updateRequest) {
         CategoryResponse response = mapperService.forResponse()
                 .map(categoryServices.update(mapperService.forRequest()

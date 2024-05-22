@@ -47,7 +47,7 @@ public class AuthorController {
         return ResultHelper.CREATED(authorResponse);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public ResultData<AuthorResponse> update(@Valid @RequestBody AuthorUpdateRequest authorUpdateRequest) {
 
         AuthorResponse authorResponse = mapperService.forResponse()

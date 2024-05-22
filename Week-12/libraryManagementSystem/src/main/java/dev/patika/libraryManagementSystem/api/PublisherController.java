@@ -23,7 +23,7 @@ public class PublisherController {
     private final ModelMapperService mapperService;
 
     @GetMapping("{id}")
-    public ResultData<PublisherResponse> getId(@PathVariable long id){
+    public ResultData<PublisherResponse> get(@PathVariable long id){
         PublisherResponse publisherResponse = mapperService.forResponse().map(publisherServices.get(id),PublisherResponse.class);
         return ResultHelper.OK(publisherResponse);
     }
@@ -32,7 +32,7 @@ public class PublisherController {
         PublisherResponse publisherResponse = mapperService.forResponse().map(publisherServices.save(mapperService.forRequest().map(publisherSaveRequest, Publisher.class)),PublisherResponse.class);
         return ResultHelper.CREATED(publisherResponse);
     }
-    @PutMapping
+    @PutMapping("/{id}")
     public ResultData<PublisherResponse> update(@Valid @RequestBody PublisherUpdateRequest publisherUpdateRequest){
         PublisherResponse publisherResponse = mapperService.forResponse().map(publisherServices.update(mapperService.forRequest().map(publisherUpdateRequest, Publisher.class)),PublisherResponse.class);
         return ResultHelper.CREATED(publisherResponse);

@@ -48,7 +48,7 @@ public class BookController {
 
         return ResultHelper.CREATED(this.mapperService.forResponse().map(saveBook, BookResponse.class));
     }
-    @PutMapping
+    @PutMapping("/{id}")
     public ResultData<BookResponse> update(@Valid @RequestBody BookUpdateRequest bookUpdateRequest){
 
         Book book = this.bookServices.get(bookUpdateRequest.getId());
