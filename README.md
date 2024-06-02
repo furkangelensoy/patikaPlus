@@ -1,6 +1,6 @@
-# Patika+ Back-end Web Develepor Bootcamp
+# Patika+ Back-end Web Developer Bootcamp
 
-This repository contains assignments and projects of the Patika+ Java Backend Web Development Bootcamp program. This repository is updated throughout my Patika+ adventure.
+This repository contains assignments and projects of the Patika+ Java Backend Web Developer Bootcamp program. This repository is updated throughout my Patika+ adventure.
 
 
 
